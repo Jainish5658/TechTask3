@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEM"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/BEM"
+        android:fontFamily="monospace"
+        android:layout_marginTop="200px"
+        android:textSize="70px"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics lab"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/physicsLab"
+        android:layout_marginTop="5px"
+        android:textSize="70px"
+        android:textStyle="bold"
+        android:layout_below="@id/BEM"
+        android:fontFamily="monospace"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engineering lab"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/enggLab"
+        android:layout_marginTop="5px"
+        android:textSize="70px"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_below="@id/physicsLab"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVS"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/EVS"
+        android:layout_marginTop="5px"
+        android:textSize="70px"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_below="@id/enggLab"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maths"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Maths"
+        android:fontFamily="monospace"
+        android:layout_marginTop="5px"
+        android:textSize="70px"
+        android:textStyle="bold"
+        android:layout_below="@id/EVS"
+        />
+
+
+
+
+</RelativeLayout>
